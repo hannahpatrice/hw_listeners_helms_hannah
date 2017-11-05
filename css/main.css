@@ -1,0 +1,65 @@
+body {
+    background-color: #add8e6;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+    padding: 5%;
+    display: flex;
+    font-family: 'Rozha One', serif;
+    color: #2e5966;
+}
+
+form {
+    margin: auto;
+    border: 5px solid white;
+    padding: 3%;
+    width: 100%;
+    background-color: white;
+}
+
+input,
+textarea {
+    width: 90%;
+    background-color: #add8e6;
+    border: none;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    margin: auto;
+    font-size: 40px;
+}
+
+label {
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+
+#submit {
+    width: 30%;
+    margin-top: 3%;
+    margin-left: 5%;
+    font-family: 'Rozha One', serif;
+    color: white;
+    background-color: #2e5966;
+    border-radius: 10px;
+}
+
+input + label {
+    padding-top: 3%;
+}
+
+@media all and (min-width: 1000px) {
+
+    .container {
+        width: 40%;
+    }
+
+    #submit {
+        width: 40%;
+    }
+}
