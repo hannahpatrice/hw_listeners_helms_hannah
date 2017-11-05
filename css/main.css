@@ -24,6 +24,8 @@ textarea {
     width: 90%;
     background-color: #add8e6;
     border: none;
+	font-size: 20px;
+	padding: 5px;
 }
 
 label,
@@ -31,12 +33,12 @@ input,
 textarea {
     display: block;
     margin: auto;
-    font-size: 40px;
 }
 
 label {
     padding-left: 5%;
     padding-bottom: 2%;
+    font-size: 40px;
 }
 
 #submit {
