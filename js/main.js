@@ -33,7 +33,7 @@ var asideStuff = document.getElementById('addImg');
 asideStuff.addEventListener('dblclick', function () {
     var itsGreat = document.createElement('img');
     itsGreat.src = './img/gators.png';
-    itsGreat.setAttribute('width', '100%');
-    itsGreat.setAttribute('alt', 'Gators');
+    itsGreat.width = '100%';
+    itsGreat.alt = 'Gators';
     document.getElementsByClassName('asideStuff')[0].appendChild(itsGreat);
 });
