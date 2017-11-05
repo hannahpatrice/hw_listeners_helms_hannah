@@ -1,0 +1,54 @@
+
+body {
+    background-color: rgb(250, 70, 22);
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Cormorant', serif;
+    color: #0021a5;
+    font-size: 50px;
+    padding: 2%;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    width: 80%;
+    min-width: 300px;
+    border: 5px solid white;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+aside {
+    background-color: white;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+@media all and (min-width: 1000px) {
+
+    main {
+        float: left;
+        width: 50%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    aside {
+        float: right;
+        width: 50%;
+    }
+}
