@@ -7,7 +7,18 @@ body {
 .container {
     width: 80%;
     margin: auto;
+}
+
+header,
+footer {
     background-color: white;
+    box-sizing: border-box;
+}
+
+footer {
+    clear: both;
+    padding: 10px 1px;
+    margin-top: 10px;
 }
 
 h1 {
@@ -17,23 +28,45 @@ h1 {
     padding: 2%;
 }
 
-p {
+p,
+figcaption {
     font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
 }
 
-img {
-    width: 80%;
+figcaption {
+    background-color: white;
+    color: #0021a5;
+    padding: 4px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#Fuchs {
+    width: 100%;
     min-width: 300px;
     border: 5px solid white;
     display: block;
     margin: auto;
     text-align: center;
+    box-sizing: border-box;
+}
+
+#logoUF {
+    width: 300px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 aside {
     background-color: white;
     padding: 2%;
     box-sizing: border-box;
+    border: 5px solid #0021a5;
+    margin-bottom: 30px;
 }
 
 @media all and (min-width: 1000px) {
@@ -50,5 +83,10 @@ aside {
     aside {
         float: right;
         width: 50%;
+    }
+
+    p,
+    figcaption {
+        font-size: 15px;
     }
 }
